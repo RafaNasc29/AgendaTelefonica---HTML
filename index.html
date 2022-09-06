@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="CSS/CSS.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AgendaTelefonica</title>
+    </head>
+
+    <body style="background-color: rgb(255, 248, 156)">
+        <div class="cabeca">
+            <h1>
+                AgiTeL<br />
+                <h1 class="h1">A sua Agenda Facil</h1>
+            </h1>
+        </div>
+
+        <br />
+
+        <form id="form">
+            <div class="adicionar-buscar">
+                <div class="form-control">
+                    <input type="value" required="" id="name" />
+                    <label>
+                        <span style="transition-delay: 0ms">N</span>
+                        <span style="transition-delay: 50ms">o</span>
+                        <span style="transition-delay: 100ms">m</span>
+                        <span style="transition-delay: 150ms">e</span>
+                    </label>
+                </div>
+                <div class="form-control">
+                    <input type="value" required="" id="id" />
+                    <label>
+                        <span style="transition-delay: 0ms">I</span>
+                        <span style="transition-delay: 50ms">D</span>
+                    </label>
+                </div>
+                <div class="form-control">
+                    <input type="value" required="" id="phone" />
+                    <label>
+                        <span style="transition-delay: 0ms">N</span>
+                        <span style="transition-delay: 50ms">ú</span>
+                        <span style="transition-delay: 100ms">m</span>
+                        <span style="transition-delay: 150ms">e</span>
+                        <span style="transition-delay: 150ms">r</span>
+                        <span style="transition-delay: 150ms">o</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="adicionar-buscar">
+                <div class="form-control">
+                    <input type="value" id="search" />
+                    <label>
+                        <span style="transition-delay: 0ms">B</span>
+                        <span style="transition-delay: 50ms">u</span>
+                        <span style="transition-delay: 100ms">s</span>
+                        <span style="transition-delay: 150ms">c</span>
+                        <span style="transition-delay: 150ms">a</span>
+                        <span style="transition-delay: 150ms">r</span>
+                        <span style="transition-delay: 150ms"> </span>
+                        <span style="transition-delay: 150ms">p</span>
+                        <span style="transition-delay: 150ms">o</span>
+                        <span style="transition-delay: 150ms">r</span>
+                        <span style="transition-delay: 150ms"> </span>
+                        <span style="transition-delay: 150ms">N</span>
+                        <span style="transition-delay: 150ms">o</span>
+                        <span style="transition-delay: 150ms">m</span>
+                        <span style="transition-delay: 150ms">e</span>
+                    </label>
+                </div>
+            </div>
+            <div class="aux">
+                <button type="submit">adicionar</button>
+                <button>Buscar</button>
+            </div>
+        </form>
+        <div class="tabela" style="background-color: rgb(215, 195, 108)">
+            <table id="table">
+                <tr>
+                    <td>Nome</td>
+                    <td>ID</td>
+                    <td>Número</td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="AgTelScript.js"></script>
+    </body>
+</html>
